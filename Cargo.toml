@@ -1,0 +1,10 @@
+[package]
+name = "nutt-conf-parser"
+version = "0.1.0"
+edition = "2021"
+description = "Parser for nutt-web config file"
+license = "Apache-2.0"
+
+[dependencies]
+serde = {version = "1.0.210", features = ["derive"]}
+toml = "0.8.19"
